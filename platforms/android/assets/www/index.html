@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+		<script src="js/jquery-1.10.2.js"></script>		
+		<script src="js/bootstrap.min.js"></script> 
+		<link rel="stylesheet" href="css/bootstrap.css">
+		<link rel="stylesheet" href="css/style.css">
+        <title>Hello World</title>
+    </head>
+	
+    <body>
+	<div class="header">
+	<p style="font-size : 23px">DEMO</p>
+	</div>
+	
+	<div id="tabs" class="tabs">
+            <nav>
+                <ul class="nav nav-tabs">
+                    <li class="active"><a data-toggle="tab" href="#section-1"><div id="titre-nav">Profil</div></a></li>
+                    <li class="dropdown"><a data-toggle="tab" href="#section-2"><div id="titre-nav">Comp&eacute;tences</div></a></li>
+                    <!--<li class="dropdown" ><a data-toggle="tab" href="#section-5">Loisirs</a></li>-->
+                </ul>
+            </nav>
+			
+	<div class="container">     <!--CONTENU DE LA PAGE-->
+ 
+			<div class="tab-content">
+                <div id="section-1" class="tab-pane fade in active">
+						<div id="texteseul">      
+							<h2>Dan Dray</h2>
+							<p>22 ans</p>
+							<p>Etudiant en 3ème année à l'école d'ingénieur CPE Lyon - Formation IRC en alternance</p> 
+							<p>Permis B - Motorisé</p>
+							<p>Téléphone : 06 52 44 61 46</p>
+							<p>Mail :  <a style="color:green;" href="mailto:draydan@hotmail.fr">draydan@hotmail.fr</a> </p>            
+						</div>
+						<div id="texteseul">      
+							<h2>Dan Dray</h2>
+							<p>22 ans</p>
+							<p>Etudiant en 3ème année à l'école d'ingénieur CPE Lyon - Formation IRC en alternance</p> 
+							<p>Permis B - Motorisé</p>
+							<p>Téléphone : 06 52 44 61 46</p>
+							<p>Mail :  <a style="color:green;" href="mailto:draydan@hotmail.fr">draydan@hotmail.fr</a> </p>            
+						</div>
+						<div id="texteseul">      
+							<h2>Dan Dray</h2>
+							<p>22 ans</p>
+							<p>Etudiant en 3ème année à l'école d'ingénieur CPE Lyon - Formation IRC en alternance</p> 
+							<p>Permis B - Motorisé</p>
+							<p>Téléphone : 06 52 44 61 46</p>
+							<p>Mail :  <a style="color:green;" href="mailto:draydan@hotmail.fr">draydan@hotmail.fr</a> </p>            
+						</div>
+						<div id="texteseul">      
+							<h2>Dan Dray</h2>
+							<p>22 ans</p>
+							<p>Etudiant en 3ème année à l'école d'ingénieur CPE Lyon - Formation IRC en alternance</p> 
+							<p>Permis B - Motorisé</p>
+							<p>Téléphone : 06 52 44 61 46</p>
+							<p>Mail :  <a style="color:green;" href="mailto:draydan@hotmail.fr">draydan@hotmail.fr</a> </p>            
+						</div>
+						<div id="texteseul">      
+							<h2>Dan Dray</h2>
+							<p>22 ans</p>
+							<p>Etudiant en 3ème année à l'école d'ingénieur CPE Lyon - Formation IRC en alternance</p> 
+							<p>Permis B - Motorisé</p>
+							<p>Téléphone : 06 52 44 61 46</p>
+							<p>Mail :  <a style="color:green;" href="mailto:draydan@hotmail.fr">draydan@hotmail.fr</a> </p>            
+						</div>
+				</div>
+				
+				<div id="section-2" class="tab-pane fade">
+
+                        <h3>Fonctions du telephone</h3>
+
+                        <button onclick="navigator.geolocation.getCurrentPosition(onSuccess, onError);">Geolocaliser</button> 
+                        <p></p>
+                        <button class="btn btn-success" onclick='capturePhoto();'>Photo</button>     
+						<p></p>
+                        <button class="btn btn-default" onclick='navigator.vibrate(1000);'>Vibrer</button>
+
+                        <!-- Formulaire-->
+                        <div style="margin-top:50px; width: 100%; margin-right:auto; margin-left:auto;">
+	                        <form role="form" class="col-xs-12">
+	                        	<div class="form-group">
+	                        		<label>Titre de l'image</label>
+	                        		<input type="text" class="form-control" placeholder="Saisir titre">
+	                        	</div>
+	                        	<div class="form-group">
+	                    			<label for="image">Ajoutez l'image</label>
+									<button id="image" class="form-control btn btn-default">Ajouter</button>
+	                        		</img>
+	                        	</div>
+	                        	<button>Créer</button>
+	                        </form>
+	                    </div>
+	                    <!-- Fin Formulaire-->
+
+	                    <!-- Formulaire-->
+                        <div style="margin-top:50px; width: 100%; margin-right:auto; margin-left:auto;">
+	                        <form role="form" class="col-xs-12">
+	                        	<div class="form-group">
+	                        		<label>Titre de l'image</label>
+	                        		<input type="text" class="form-control" placeholder="Saisir titre">
+	                        	</div>
+	                        	<div class="form-group">
+	                    			<label for="image">Ajoutez l'image</label>
+									<button id="image" class="form-control btn btn-default">Ajouter</button>
+	                        		</img>
+	                        	</div>
+	                        	<button>Créer</button>
+	                        </form>
+	                    </div>
+	                    <!-- Fin Formulaire-->
+				</div>
+			</div>
+		</div>
+
+    </div>		
+
+		<script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/index.js"></script>
+        <script type="text/javascript" src="js/camera.js"></script>
+        <script type="text/javascript" src="js/donnees.js"></script>
+		
+    </body>
+	
+</html>

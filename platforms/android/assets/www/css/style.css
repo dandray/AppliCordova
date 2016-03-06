@@ -1,0 +1,115 @@
+body{
+	background-color: #0B2161;
+	color: white;
+	font-family: dosis;
+	font-size : 18px;
+	overflow: scroll;
+	position: relative;
+	z-index: 1;
+}
+
+.header{
+	position : fixed;
+	top: 0; left: 0; right: 0;
+	height: 60px; line-height: 60px;
+	text-transform : uppercase;
+	text-align: center;
+	background-color : #11a7ab;
+	z-index: 2;
+}
+
+/**********************************STYLE NAV**********************************/	
+.nav-tabs{
+	color: white;
+	position: fixed;
+	bottom: 0; left: 0; right:0;
+	height: 60px;
+	line-height: 60px;
+	text-align: center;
+	background-color: #4f597b;
+	overflow:hidden;
+	*zoom: 1;
+	z-index: 2;
+	}
+
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
+  border-top : 3px solid #11a7ab;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  color: #11a7ab;
+}
+
+    nav li{
+		width: 100%;
+	}   
+
+	
+.nav-tabs > li > a {
+  color: white;
+  line-height: 3;
+  border-top: 2px solid white;
+  border-left: 1px solid white;
+  border-right: 1px solid white;
+  /*border-radius: 4px 4px 0 0;*/
+}
+
+.nav-tabs > li > a:hover {
+   background-color: transparent;
+   color: #11a7ab;
+   border-top: 2px solid #11a7ab;
+   border-left: 1px solid #11a7ab;
+   border-right: 1px solid #11a7ab;
+}
+
+#titre-nav{
+  line-height: 40px;
+}
+/****************************** FIN STYLE NAV**********************************/	
+
+    .container{
+    	margin-top: 60px;
+    	margin-bottom: 20px;
+/* background-image:url('../images/texture-blue-color-background.jpg'); */
+background-color: transparent ;
+background-repeat: no-repeat;
+}
+
+	p{
+		word-wrap: break-word;
+	}
+	
+	#texteseul{
+	width:100%;
+	margin:auto;
+	border:none;
+	display:inline-block;
+	float:left;
+	background-color: transparent;
+	}
+	
+    .jumbotron h3{
+        font-weight: bold;
+    }
+	
+@media (max-width: 380px) {
+body{
+	font-size : 13px;
+	margin-bottom: 100px;	
+ }
+
+h1{
+	font-size : 22px;
+} 
+
+h2, h3{
+	font-size : 18px;
+} 
+
+h3{
+	font-size : 16px;
+} 
+}
+/*Fin du Responsive Design*/   
